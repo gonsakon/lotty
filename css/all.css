@@ -1,0 +1,42 @@
+html, body, canvas, div, p,
+form, input, label {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+body, a, button {
+    color: #02bff6;
+    font: lighter 18px "Segoe UI", serif;
+}
+.playone {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 128px;
+  height: 138px;
+  background: url(../images/click.png) 0 15px no-repeat;
+  color: #fff;
+  font-family: 微軟正黑體;
+  border: none;
+  font-size: 35px;
+  padding: 0px 0 0 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  cursor: pointer
+}
+
+.playone:active {
+  bottom: 10px
+}
+
+footer {
+    bottom: 50px;
+    left: 10%;
+    position: fixed;
+    width: 80%;
+}
